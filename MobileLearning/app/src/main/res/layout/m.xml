@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_padding"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:layout_marginRight="@dimen/default_margin"
+                android:text="Aplikasi office (aplikasi perkantoran) adalah kumpulan aplikasi yang digunakan untuk memudahkan pekerjaan perkantoran. Karena berupa aplikasi, fiturfiturnya sudah tersedia dan dapat langsung digunakan oleh pengguna, tanpa harus membangunnya sendiri menggunakan bahasa pemrograman."
+                tools:layout_editor_absoluteX="92dp"
+                tools:layout_editor_absoluteY="181dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_padding"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:layout_marginRight="@dimen/default_margin"
+                android:text="Secara umum, aplikasi perkantoran terbagi menjadi beberapa jenis menurut kegunaan dan fungsinya. Tiga di antaranya yang paling banyak digunakan ialah seperti berikut."
+                tools:layout_editor_absoluteX="92dp"
+                tools:layout_editor_absoluteY="181dp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_padding"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:layout_marginRight="@dimen/default_margin"
+                android:text="1. Aplikasi pengolah kata (word processor). Aplikasi ini fitur utamanya digunakan untuk membuat dan mengolah dokumen, misalnya membuat surat, menyusun laporan, dan lain-lain. Contoh aplikasi pengolah kata ialah Microsoft Word, Open Office Word, Google Docs, dan lain-lain."
+                tools:layout_editor_absoluteX="92dp"
+                tools:layout_editor_absoluteY="181dp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_padding"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:layout_marginRight="@dimen/default_margin"
+                android:text="2. Aplikasi pengolah lembar kerja (spreadsheet). Aplikasi ini fitur utamanya digunakan untuk mengelola data yang disajikan dalam bentuk lembar kerja, yaitu tabel dua dimensi yang terdiri atas kolom dan baris fiturfitur yang tersedia dapat mempermudah perhitungan data dan mengolah data secara statistik, dan dapat menampilkannya dalam bentuk diagram. Contoh aplikasi spreadsheet ialah Microsoft Excel, OpenOffice Spreadsheet, Google Sheet, dan lain lain."
+                tools:layout_editor_absoluteX="92dp"
+                tools:layout_editor_absoluteY="181dp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_padding"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:layout_marginRight="@dimen/default_margin"
+                android:text="3. Aplikasi pembuat bahan presentasi yang disebut slide. Aplikasi ini fitur utamanya digunakan untuk memudahkan kita untuk membuat slide presentasi dengan mudah dan cepat serta menghasilkan slide yang menarik. Slide presentasi adalah objek yang terdiri atas butir-butir penjelasan, dapat disertai gambar atau ilustrasi lainnya. Contoh perangkat lunak pembuat presentasi ialah Microsoft Office PowerPoint, OpenOffice Presentation, Google Slide, dan lain-lain."
+                tools:layout_editor_absoluteX="92dp"
+                tools:layout_editor_absoluteY="181dp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_padding"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:layout_marginRight="@dimen/default_margin"
+                android:text="A. Integrasi Konten Aplikasi Perkantoran"
+                tools:layout_editor_absoluteX="92dp"
+                tools:layout_editor_absoluteY="181dp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_padding"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:layout_marginRight="@dimen/default_margin"
+                android:text="Mengintegrasikan artinya menyatukan beberapa objek, data, atau komponen
+untuk membentuk sesuatu yang utuh dan bermakna, walaupun komponennya
+tadinya terpencar atau tidak ada hubungannya. Misalnya, kita harus membuat
+sebuah laporan berdasarkan pengamatan yang datanya dibuat dan divisualisasi
+dengan excel. Sebelum laporan lengkap, kita membuat proposal dalam bentuk
+slides. Saat kita membuat laporan, untuk menghindari mengerjakan hal yang
+sama (mengetik ulang), kita perlu “membawa” potongan hasil kerja dengan
+MS Excel, MS Word, dan MS PowerPoint ke dalam MS Word karena laporan
+akhir dibuat dengan MS Word."
+                tools:layout_editor_absoluteX="92dp"
+                tools:layout_editor_absoluteY="181dp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_padding"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:layout_marginRight="@dimen/default_margin"
+                android:text="Setiap jenis aplikasi perkantoran memiliki fungsi yang berbeda sehingga
+pengguna biasanya hanya menggunakan satu aplikasi sekali waktu, misalnya
+menggunakan aplikasi word processor untuk menyusun dokumen. Akan tetapi, ada kalanya, pengguna memerlukan lebih dari satu aplikasi untuk
+suatu keperluan. Sebagai contoh, saat diperlukan laporan yang memuat
+diagram, selain aplikasi pengolah kata, diperlukan juga aplikasi pengolah
+lembar kerja yang dapat membuat diagram dengan lebih presisi. Oleh karena
+itu, diperlukan integrasi konten antaraplikasi perkantoran."
+                tools:layout_editor_absoluteX="92dp"
+                tools:layout_editor_absoluteY="181dp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_padding"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:layout_marginRight="@dimen/default_margin"
+                android:text="Integrasi memungkinkan untuk mengaitkan data maupun fitur antaraplikasi
+sehingga data atau fitur pada satu aplikasi dapat digunakan di aplikasi yang lain.
+Integrasi konten aplikasi perkantoran bertujuan untuk menggabungkan konten
+aplikasi lain dalam satu aplikasi. Sebagai contoh, pada Microsoft Office, data dari
+Microsoft Excel dapat ditautkan dengan dokumen pada Microsoft Word dalam
+pembuatan surat, atau data di Microsoft Excel ditautkan dengan presentasi pada
+MS PowerPoint dalam menampilkan grafik dan tabel. Kedua contoh tersebut
+merupakan contoh implementasi dari integrasi konten antaraplikasi di Microsoft
+Office. Microsoft Excel digunakan sebagai sumber data atau objek untuk disajikan
+dalam dokumen atau presentasi. "
+                tools:layout_editor_absoluteX="92dp"
+                tools:layout_editor_absoluteY="181dp"/>
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_padding"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:layout_marginRight="@dimen/default_margin"
+                android:text="Terdapat beberapa cara untuk mengintegrasikan data, teks, gambar antar
+aplikasi perkantoran. Cara itu menggunakan: (a) teknik “Salin-Tempel”(Copy
+Paste) atau “Gunting-Tempel” (Cut Paste), (b) Menu yang tersedia di aplikasi,
+(c) teknik Object Linking dan Embedding. "
+                tools:layout_editor_absoluteX="92dp"
+                tools:layout_editor_absoluteY="181dp"/>
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_padding"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:layout_marginRight="@dimen/default_margin"
+                android:text="1. Integrasi dengan Perintah Cut, Copy, dan Paste"
+                tools:layout_editor_absoluteX="92dp"
+                tools:layout_editor_absoluteY="181dp"/>
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_padding"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:layout_marginRight="@dimen/default_margin"
+                android:text="Perintah Cut (Potong), Copy (Salin), dan Paste (Tempel) pada aplikasi komputer
+saat ini diinspirasi dari praktik tradisional dalam pengeditan naskah yang
+diketik pada sebuah kertas, di mana orang akan memotong (cut) paragraf
+dari halaman dengan gunting dan menempelkannya ke halaman lain (paste).
+Praktik ini tetap berlangsung hingga 1980-an. Pada saat itu, toko alat tulis
+bahkan menjual gunting pengeditan dengan bilah cukup panjang yang
+mampu memotong halaman selebar 22 cm. "
+            tools:layout_editor_absoluteX="92dp"
+            tools:layout_editor_absoluteY="181dp"/>
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_padding"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:layout_marginRight="@dimen/default_margin"
+                android:text="Saat ini, perintah Cut, Copy, dan Paste sangat populer digunakan. Banyak
+aplikasi menyediakan cara unik untuk metode ini seperti: kombinasi tombol,
+menu tarik-turun (pull-down menu), menu pop-up, dll."
+                tools:layout_editor_absoluteX="92dp"
+                tools:layout_editor_absoluteY="181dp"/>
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_padding"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:layout_marginRight="@dimen/default_margin"
+                android:text="Mekanisme tradisional Cut, Copy, dan Paste menggunakan gunting, sedangkan
+pada aplikasi komputer, perintah Cut memindahkan teks/grafik atau objek lain ke
+dalam clipboard atau buffer berupa tempat penyimpan sementara. Perintah Paste
+akan memindahkan objek dari clipboard tersebut menuju ke dokumen tujuan.
+Perintah Copy akan menyalin teks/grafik atau objek lain yang disorot ke
+dalam clipboard dan akan memindahkan objek dari clipboard tersebut menuju
+ke dokumen tujuan."
+                tools:layout_editor_absoluteX="92dp"
+                tools:layout_editor_absoluteY="181dp"/>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/copas" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_padding"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:layout_marginRight="@dimen/default_margin"
+                android:text="Perintah Potong dan Tempel memiliki urutan cara yang sama, tetapi perintah untuk Potong, yaitu menggunakan Ctrl-x (⌘ + x untuk
+pengguna Macintosh). Contohnya, melakukan Copy-Paste pada tabel dari aplikasi lembar kerja ke pengolah kata. Atau, melakukan penyalinan dari MS
+Word dan ditempel ke MS Excel atau MS PowerPoint. Artinya, kita dapat membuka 2 atau 3 aplikasi sekaligus, dan membawa potongan teks, tabel, gambar dari satu aplikasi ke aplikasi lainnya.
+Karena praktis, kita sering melakukan Copy-Paste. Copy-Paste perlu dilakukan dengan cermat jika hasilnya masih harus diedit/diubah. Seringkali, terjadi CopyPaste yang menghasilkan teks yang salah karena penulis lupa mengedit"
+                tools:layout_editor_absoluteX="92dp"
+                tools:layout_editor_absoluteY="181dp"/>
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_padding"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:layout_marginRight="@dimen/default_margin"
+                android:text="2. Fitur Integrasi Konten pada Aplikasi"
+                tools:layout_editor_absoluteX="92dp"
+                tools:layout_editor_absoluteY="181dp"/>
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_padding"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:layout_marginRight="@dimen/default_margin"
+                android:text="Integrasi konten pada bagian ini dilakukan dengan menggunakan fitur integrasi
+yang tersedia di aplikasi. Kita dapat menggunakan menu pada salah satu aplikasi
+yang secara otomatis membuka aplikasi lainnya. Misalnya, pada Microsoft Word,
+ketika dipilih menu Insert Chart, Microsoft Excel secara otomatis akan terbuka.
+Tentu, kalian juga membawa diagram ke MS PowerPoint dan melakukan hal yang
+sama. Gambar 3.3 dan Gambar 3.4 menunjukkan contoh menu Insert Chart yang
+dapat menampilkan sheet yang dapat diisi data untuk membuat Diagram. "
+                tools:layout_editor_absoluteX="92dp"
+                tools:layout_editor_absoluteY="181dp"/>
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/chart" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/chart2" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_padding"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:layout_marginRight="@dimen/default_margin"
+                android:text="3. Object Linking &amp; Embedding"
+                tools:layout_editor_absoluteX="92dp"
+                tools:layout_editor_absoluteY="181dp"/>
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/oblink" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_padding"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:layout_marginRight="@dimen/default_margin"
+                android:text="Pada Object Linking (untuk Microsoft
+Office), objek yang berasal dari aplikasi
+perkantoran lain dapat disisipkan
+ke aplikasi perkantoran yang sedang
+dibuat. Perubahan pada data sumber
+akan mengakibatkan perubahan pada
+objek yang dihubungkan dengan
+fasilitas ini pada aplikasi lainnya."
+                tools:layout_editor_absoluteX="92dp"
+                tools:layout_editor_absoluteY="181dp"/>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

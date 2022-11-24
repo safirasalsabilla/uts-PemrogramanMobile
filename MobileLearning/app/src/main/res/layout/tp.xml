@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TujuanPembelajaran">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+    </LinearLayout>
+
+        <TextView
+        android:id="@+id/txt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/default_padding"
+        android:text="Setelah mempelajari bab ini, kalian mampu mengintegrasi konten antaraplikasi perkantoran (pengolah kata, angka, dan presentasi), menggunakan fitur lanjut, dan menyajikan konten aplikasi dalam berbagai representasi yang mudah untuk dianalisis."
+        android:textSize="@dimen/font_size_small"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="135dp" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
